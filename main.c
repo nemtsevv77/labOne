@@ -1,4 +1,4 @@
-#include<stdio.h>
+#includeg<stdio.h>
 #include<math.h>
 #include<locale.h>
 int main()
@@ -19,7 +19,7 @@ int main()
 	if (a == 10.0) printf("Октябрь");
 	if (a == 11.0) printf("Ноябрь");
 	if (a == 12.0) printf("Декабрь");
-	if (a > 12) printf("Вы ввели несоответствующее число.");
+	//if (a > 12) printf("Вы ввели несоответствующее число.");
 
 	return 0;
 }
